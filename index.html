@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Taylor Made</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway"
+  />
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/sewing-machine-and-turquoise-fabric-880002532-5d60eb5a868546b2b4e8f3a0d495aa63.jpg?v=1645910451826"
+  />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif;
+    }
+  </style>
+  <body class="light-grey content" style="max-width: 1600px">
+    <!-- Sidebar/menu -->
+    <nav
+      class="sidebar bar-block white animate-left text-grey collapse top center"
+      style="z-index: 3; width: 300px; font-weight: bold"
+      id="mySidebar"
+    >
+      <br />
+      <h3 class="padding-64 center">
+        <b>TAYLOR<br />MADE</b>
+      </h3>
+      <a
+        href="javascript:void(0)"
+        onclick="wclose()"
+        class="bar-item button padding hide-large"
+        >CLOSE</a
+      >
+      <a href="#" onclick="wclose()" class="bar-item button">PORTFOLIO</a>
+      <a href="#about" onclick="wclose()" class="bar-item button">ABOUT ME</a>
+      <a href="#contact" onclick="wclose()" class="bar-item button">CONTACT</a>
+      <a href="photos.html" onclick="wclose()" class="bar-item button"
+        >PHOTOS</a
+      >
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="container top hide-large white xlarge padding-16">
+      <span class="left padding">TAYLOR MADE</span>
+      <a href="javascript:void(0)" class="right button white" onclick="wopen()"
+        >☰</a
+      >
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="overlay hide-large animate-opacity"
+      onclick="wclose()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <div class="heading dark-grey center container padding-16 content">
+      <div class="content justify" style="max-width: 700px">
+        <h1 class="center">Custom Tailoring by Hannah Taylor</h1>
+        <p class="pheading center">
+          Custom made dresses and stitching repairs<br />Call or Email for
+          custom orders or questions<br />
+        </p>
+        <p class="center mobilecontent">
+          For more photos <a href="photos.html">click here</a>
+        </p>
+        <p class="location center desktopcontent">
+          Located in Highlands Ranch Colorado
+        </p>
+        <div class="desktopcontent">
+          <img
+            class="instapic"
+            src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/instagrampicture.jpg?v=1647236939762"
+            alt="instagram"
+          />
+          <p class="center" style="font-size: 20px">
+            Now is a good a time as any for some of my old projects! This one
+            was my dress for prom 2021!
+          </p>
+          <p class="center" style="font-size: 20px">
+            Feel free to check out my instagram for more of my projects and to
+            be updated on future ones! @madam_ascalon
+          </p>
+          <a
+            class="socialmedia padding-32"
+            style="margin-left: 175px"
+            target="_blank"
+            href="https://www.instagram.com/madam_ascalon/"
+            ><img
+              class="icon"
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/580b57fcd9996e24bc43c521.png?v=1646807218927"
+              alt="instagram"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="main" style="margin-left: 300px">
+      <!-- Push down content on small screens -->
+      <div class="hide-large" style="margin-top: 83px"></div>
+
+      <!-- Photo grid -->
+      <!--Image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <input type="radio" name="radio-btn" id="radio5" />
+          <input type="radio" name="radio-btn" id="radio6" />
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image1.jpeg?v=1645908040147"
+              alt="image1"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image2.jpeg?v=1645908039899"
+              alt="image2"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image3.jpeg?v=1645908039658"
+              alt="image3"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image4.jpeg?v=1645908040126"
+              alt="image4"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image5.png?v=1646464474697"
+              alt="image5"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/image6.jpeg?v=1645908039868"
+              alt="image6"
+            />
+          </div>
+          <!--slide images end-->
+          <!-- automatic nav start-->
+        </div>
+        <!--Manual Navigation-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+          <label for="radio5" class="manual-btn"></label>
+          <label for="radio6" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+          document.getElementById("radio" + counter).checked = true;
+          counter++;
+          if (counter > 6) {
+            counter = 1;
+          }
+        }, 8000);
+      </script>
+
+      <!-- Pagination -->
+      <div class="center padding-16"></div>
+
+      <!-- About section -->
+      <div
+        class="container dark-grey center text-light-grey padding-32"
+        id="about"
+      >
+        <h4><b>About Me</b></h4>
+        <img
+          src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/hannahtaylor.png?v=1646462720880"
+          alt="Me"
+          class="image padding-32"
+          width="400"
+          height="600"
+        />
+        <div class="content justify" style="max-width: 600px">
+          <h4>Hannah Taylor</h4>
+          <p>
+            Hi! My name is Hannah Taylor. All throughout my life I have been
+            infatuated with sewing and creating beautiful works with fabric. My
+            journey as a seamstress started early when I received my first
+            sewing kit at the age of 8. Since then I started sewing everything
+            from pillows to a very lopsided pair of shorts. I have made mistakes
+            and have learned so much since then. I have honed onto a style and
+            have fallen in love with dress making. I hope to share my work and
+            improve my skills. This website will be a portfolio of my work as
+            well as my progress.
+          </p>
+          <p>mail: madamascalon228@gmail.com</p>
+          <p>tel: (702)202-0664</p>
+          <hr class="opacity" />
+
+          <!-- Contact section -->
+          <div class="light-grey padding-32 padding-large" id="contact">
+            <div class="content" style="max-width: 600px">
+              <h4 class="center"><b>Contact Me</b></h4>
+              <p>
+                Have a custom order or in need of a repair? Fill out the form
+                and fill me in with the details! I'll get back to you as soon as
+                i can!
+              </p>
+              <form
+                action="https://formsubmit.co/madamascalon228@gmail.com"
+                method="POST"
+              >
+                <div class="section">
+                  <label>Name</label>
+                  <input
+                    class="input border"
+                    type="text"
+                    name="Name"
+                    required
+                  />
+                </div>
+                <div class="section">
+                  <label>Email</label>
+                  <input
+                    class="input border"
+                    type="text"
+                    name="Email"
+                    required
+                  />
+                </div>
+                <div class="section">
+                  <label>Message</label>
+                  <input
+                    class="input border"
+                    type="text"
+                    name="Message"
+                    required
+                  />
+                </div>
+                <button type="submit" class="button block black margin-bottom">
+                  Send Message
+                </button>
+                <input type="hidden" name="_captcha" value="false" />
+              </form>
+            </div>
+          </div>
+
+          <!-- End page content -->
+        </div>
+
+        <script>
+          // Script to open and close sidebar
+          function wopen() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+          }
+
+          function wclose() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+          }
+        </script>
+        <footer class="footer">
+          <p>&copy; 2022 Taylor Made - Tyson Reese</p>
+
+          <div>
+            <a
+              class="socialmedia padding-32"
+              target="_blank"
+              href="https://www.facebook.com"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/584ac2d03ac3a570f94a666d.png?v=1646807416562"
+                alt="facebook"
+            /></a>
+
+            <a
+              class="socialmedia padding-32"
+              target="_blank"
+              href="https://www.twitter.com"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/580b57fcd9996e24bc43c53e.png?v=1646807416562"
+                alt="twitter"
+            /></a>
+
+            <a
+              class="socialmedia padding-32"
+              target="_blank"
+              href="https://www.instagram.com/madam_ascalon/"
+              ><img
+                class="icon"
+                src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/580b57fcd9996e24bc43c521.png?v=1646807218927"
+                alt="instagram"
+            /></a>
+          </div>
+          <a href="site-plan.html">SITE-PLAN</a>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

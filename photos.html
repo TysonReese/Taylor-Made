@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Taylor Made</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" type="image/x-icon" href="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/sewing-machine-and-turquoise-fabric-880002532-5d60eb5a868546b2b4e8f3a0d495aa63.jpg?v=1645910451826" />
+<style>
+  body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="dark-grey content" style="max-width:1600px">
+  
+  <nav class="sidebar bar-block white animate-left text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="padding-64 center"><b>TAYLOR<br>MADE</b></h3>
+  <a href="javascript:void(0)" onclick="wclose()" class="bar-item button padding hide-large">CLOSE</a>
+  <a href="index.html" onclick="wclose()" class="bar-item button">PORTFOLIO</a> 
+  <a href="index.html#about" onclick="wclose()" class="bar-item button">ABOUT ME</a> 
+  <a href="index.html#contact" onclick="wclose()" class="bar-item button">CONTACT</a>
+  <a href="photos.html" onclick="wclose()" class="bar-item button">PHOTOS</a>
+</nav>
+  <!-- Top menu on small screens -->
+<header class="container top hide-large white xlarge padding-16">
+  <span class="left padding">TAYLOR MADE</span>
+  <a href="javascript:void(0)" class="right button white" onclick="wopen()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="overlay hide-large animate-opacity" onclick="wclose()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+  <div class="wrapper padding-32">
+    
+  
+  <img src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/file.jpg?v=1647389689636" alt="Me" class="image  one imagecontainer" >
+    
+  <img src="https://cdn.glitch.global/970a3017-1e94-47ec-b108-480449980214/275619280_1481294622265891_5406438321386008031_n.jpg?v=1647974470992" alt="Me" class="image  two imagecontainer" >
+    
+  <img src="https://cdn.glitch.global/970a3017-1e94-47ec-b108-480449980214/image3.jpg?v=1647974750312" alt="Me" class="image  three imagecontainer">
+    
+  <img src="https://cdn.glitch.global/970a3017-1e94-47ec-b108-480449980214/image4.jpg?v=1647974854334" alt="Me" class="image  four imagecontainer">
+  
+  </div>
+  <footer class="darker-grey center footer" style="margin-left:300px ">
+      <p>&copy; 2022 Taylor Made - Tyson Reese</p>
+      
+      <div>
+        <a class="socialmedia padding-32" target="_blank" href="https://www.facebook.com"><img class="icon" src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/584ac2d03ac3a570f94a666d.png?v=1646807416562" alt="facebook"></a>
+        
+        
+        <a class="socialmedia padding-32" target="_blank" href="https://www.twitter.com"><img class="icon" src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/580b57fcd9996e24bc43c53e.png?v=1646807416562" alt="twitter"></a>
+        
+        
+        <a class="socialmedia padding-32" target="_blank" href="https://www.instagram.com/madam_ascalon/"><img class="icon" src="https://cdn.glitch.global/cb68001c-adba-4fee-a1e9-51df4efb07e5/580b57fcd9996e24bc43c521.png?v=1646807218927" alt="instagram"></a>
+      </div>
+      <a href="site-plan.html">SITE-PLAN</a>
+    </footer>
+  
+  <script>
+// Script to open and close sidebar
+function wopen() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function wclose() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+</body>
+</html>
